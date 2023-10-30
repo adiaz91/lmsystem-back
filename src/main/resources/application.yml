@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: lm_system-app
+  datasource:
+    url: jdbc:mysql://${DB_HOST}/${DB_DATABASE}?serverTimeZone=America/Bogota
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      generate-ddl: true
+      ddl-auto: create-drop

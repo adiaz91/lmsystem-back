@@ -1,0 +1,2 @@
+INSERT INTO students(date_of_birth,id,created_at,modified_at,address,first_name,last_name,phone_number,email) VALUES ('1995-05-15', 10, '2023-10-28 08:00:00', '2023-10-28 08:00:00', '123 Main Street', 'Alice', 'Smith', '555-555-5555', 'alice@example.com');
+INSERT INTO courses (id,start_date, created_at, modified_at, name, description) VALUES (10,'2023-11-02', '2023-10-28 08:00:00', '2023-10-28 08:00:00', 'Java Development Masterclass', 'A comprehensive course that equips you with great skills');
